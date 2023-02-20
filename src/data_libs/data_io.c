@@ -21,6 +21,6 @@ void output(double *data, int n) {
     for (int i = 0; i < n; i++) {
         printf("%.2lf", data[i]);
 
-        if(i + 1 < n) printf(" ");
+        if (i + 1 < n) printf(" ");
     }
 }

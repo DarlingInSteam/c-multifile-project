@@ -4,18 +4,17 @@
 #include "../data_libs/data_io.h"
 #include "decision.h"
 
-int main()
-{
+int main() {
     double *data;
     int n;
     int flag_inp = input(&data, &n);
 
     if (flag_inp == 0) {
         if (make_decision(data, n)) {
-            printf("YES"); 
+            printf("YES");
             free(data);
         } else {
-            printf("NO");  
+            printf("NO");
             free(data);
         }
     } else {

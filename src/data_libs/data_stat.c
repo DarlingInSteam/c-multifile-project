@@ -1,7 +1,8 @@
 #include "data_stat.h"
+
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 double max(double *data, int n) {
     double max = data[0];
 

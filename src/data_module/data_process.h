@@ -6,12 +6,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int normalization(double **data, int n);
 
 #endif
-
-
-
-
-            
